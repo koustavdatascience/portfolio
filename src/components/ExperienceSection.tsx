@@ -3,10 +3,23 @@
 import { useState } from "react";
 import { experience } from "../lib/portfolio-data";
 
+const experienceLogos: Record<string, { src: string; alt: string }> = {
+  "The Graduate Dropout": { src: "/experience/tgd-mark.svg", alt: "The Graduate Dropout mark" },
+  freelance: { src: "/experience/freelance-mark.svg", alt: "Freelance content design mark" },
+  "college cultural committee": { src: "/experience/rcciit-logo.png", alt: "RCCIIT logo" },
+  "college band": { src: "/experience/band-mark.svg", alt: "College band mark" },
+  "smart bengal hackathon": { src: "/experience/hackathon-mark.svg", alt: "Smart Bengal Hackathon mark" },
+  "chittaranjan locomotive works": { src: "/experience/clw-logo.jpg", alt: "Chittaranjan Locomotive Works logo" },
+};
+
 function ExperienceItem({ item, isOpen, onClick }: { item: (typeof experience)[number]; isOpen: boolean; onClick: () => void }) {
+  const logo = experienceLogos[item.company];
+
   return (
     <div className="experience-item">
-      <div className="experience-avatar experience-avatar-initial" aria-hidden="true">{item.company.charAt(0).toUpperCase()}</div>
+      <div className="experience-avatar experience-avatar-initial" aria-hidden="true">
+        {logo ? <img src={logo.src} alt={logo.alt} className="experience-logo" /> : item.company.charAt(0).toUpperCase()}
+      </div>
       <div className="experience-content">
         <div className="experience-header">
           <div className="experience-info">

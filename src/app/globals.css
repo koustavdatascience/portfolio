@@ -2336,3 +2336,18 @@ nav {
   .photography-grid { grid-template-columns: 1fr; max-width: 420px; }
   .photography-card { min-height: 180px; }
 }
+
+.experience-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+  padding: 6px;
+  background: #fff;
+  filter: grayscale(100%);
+  transition: filter .3s ease, transform .3s ease;
+}
+.experience-avatar:hover .experience-logo {
+  filter: grayscale(0%);
+  transform: scale(1.06);
+}
