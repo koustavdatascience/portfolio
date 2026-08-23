@@ -1,0 +1,14 @@
+{
+  "name": "koustav",
+  "version": "2.0.0",
+  "description": "A tiny terminal introduction for Koustav Roy",
+  "bin": {
+    "koustav": "index.js"
+  },
+  "keywords": ["koustav", "portfolio", "data analyst", "terminal portfolio"],
+  "author": "Koustav Roy <koustavdatascience@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}

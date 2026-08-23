@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect } from "react";
 import { createPortal } from "react-dom";
 
-const COMMAND = "npx abhijith";
+const COMMAND = "npx koustav";
 const COPIED_MESSAGE = "Paste in terminal :3";
 
 function CopyIcon() {

@@ -1,13 +1,13 @@
 const DEFAULT_METADATA = {
-  siteTitle: 'Product & Design-First Software Engineer | Abhijith',
+  siteTitle: 'Koustav Roy | Data Analyst',
   siteDescription:
-    'Product-focused software engineer who builds apps, systems, and experiences with strong UX and creative intent. Uses AI to accelerate execution, not replace originality. Drawn to early-stage startups and people who care about craft.',
-  siteUrl: 'https://abhijithjinnu.in',
-  openGraphTitle: 'Product & Design-First Software Engineer | Abhijith',
+    'Koustav Roy is an aspiring Data Analyst who turns data into clear insights and meaningful decisions.',
+  siteUrl: 'https://github.com/koustavdatascience/portfolio',
+  openGraphTitle: 'Koustav Roy | Data Analyst',
   openGraphDescription:
-    'I build software, music, films, and products with taste. UX-first, systems-minded, and obsessed with making things that feel right. Looking to work with founders and creative builders.',
+    'Data, projects, creativity, and things I am building.',
   defaultOgImageUrl: '/twittercard.png',
-  defaultOgImageAlt: 'Abhijith - Product & Design-First Software Engineer',
+  defaultOgImageAlt: 'Koustav Roy — Data Analyst',
   keywords: [
     'product engineer',
     'design first software engineer',
