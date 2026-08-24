@@ -102,7 +102,7 @@ export const experience = [
     company: "Google Developers Club",
     role: "Coordinator",
     date: "during college",
-    location: "india",
+    location: "RCCIIT, Kolkata",
     description: ["Coordinated developer activities, technical events, and community initiatives during college."],
   },
   {
@@ -116,14 +116,14 @@ export const experience = [
     company: "College Cultural Committee",
     role: "Event Team Member",
     date: "2022 - 2024",
-    location: "india",
+    location: "RCCIIT, Kolkata",
     description: ["Helped organize cultural events, coordinate activities, and manage creative responsibilities during college programs."],
   },
   {
     company: "Smart Bengal Hackathon",
     role: "Runner-up",
     date: "2023",
-    location: "india",
+    location: "RCCIIT, Kolkata",
     description: ["Collaborated with a team to develop and present a solution, finishing as Runner-up in 2023."],
   },
   {
