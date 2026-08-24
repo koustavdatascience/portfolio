@@ -2358,6 +2358,15 @@ nav {
   transform: scale(1.06);
 }
 
+/* The Graduate Dropout mark reads more clearly when slightly enlarged in its circular avatar. */
+.experience-avatar-tgd .experience-logo {
+  transform: scale(1.18);
+}
+
+.experience-avatar-tgd:hover .experience-logo {
+  transform: scale(1.24);
+}
+
 .avatar-photo-wrapper {
   position: relative;
   background-color: var(--capsule-bg);

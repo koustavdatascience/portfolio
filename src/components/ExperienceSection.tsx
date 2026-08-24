@@ -17,7 +17,7 @@ function ExperienceItem({ item, isOpen, onClick }: { item: (typeof experience)[n
 
   return (
     <div className="experience-item">
-      <div className="experience-avatar experience-avatar-initial" aria-hidden="true">
+      <div className={`experience-avatar experience-avatar-initial${item.company === "The Graduate Dropout" ? " experience-avatar-tgd" : ""}`} aria-hidden="true">
         {logo ? <img src={logo.src} alt={logo.alt} className="experience-logo" /> : item.company.charAt(0).toUpperCase()}
       </div>
       <div className="experience-content">
