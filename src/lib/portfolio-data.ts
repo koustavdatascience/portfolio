@@ -86,7 +86,7 @@ export const projects: PortfolioProject[] = [
     repo: "https://github.com/koustavdatascience/Secondself-project",
     imageUrl: "/projects/secondself.png",
     accent: "#86d69a",
-    featured: true,
+    featured: false,
   },
 ];
 
