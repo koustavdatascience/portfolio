@@ -661,10 +661,35 @@ nav {
 
 .project-card {
   width: 100%;
-  aspect-ratio: 220 / 160;
   background-color: #dfdfdf;
+  color: var(--text-primary);
   border-radius: 16px;
   flex-shrink: 0;
+}
+
+.project-card-image {
+  width: 100%;
+  aspect-ratio: 220 / 160;
+  background-color: #dfdfdf;
+}
+
+.project-card-brief {
+  padding: 14px 16px 16px;
+  background: var(--capsule-bg);
+  color: var(--bg-color);
+}
+
+.project-card-brief h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.project-card-brief p {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  opacity: 0.82;
 }
 
 /* Experience Section */

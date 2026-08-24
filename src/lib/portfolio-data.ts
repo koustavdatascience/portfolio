@@ -54,12 +54,13 @@ export const projects: PortfolioProject[] = [
   {
     id: "clinic-ocr",
     title: "ClinicOCR",
-    description: "An OCR-assisted workflow that turns handwritten prescriptions into clinician-reviewed digital records.",
+    description: "ClinicOCR turns handwritten prescriptions into clear, clinician-reviewed digital records.",
     detail:
       "ClinicOCR supports review and correction, search, patient history, multiple languages, notes, and PDF export rather than treating an AI draft as a final medical record.",
     stack: ["React", "Express", "OCR", "AI", "Neon", "Clerk"],
     link: "https://clinic-ocr-app.vercel.app/",
     repo: "https://github.com/koustavdatascience/clinicOCR",
+    imageUrl: "/projects/clinicocr.png",
     accent: "#7bc7ff",
     featured: true,
   },
@@ -83,7 +84,9 @@ export const projects: PortfolioProject[] = [
     stack: ["Python", "Streamlit", "RAG", "Embeddings", "Groq"],
     link: "https://secondself-project.streamlit.app",
     repo: "https://github.com/koustavdatascience/Secondself-project",
+    imageUrl: "/projects/secondself.png",
     accent: "#86d69a",
+    featured: true,
   },
 ];
 
