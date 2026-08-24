@@ -5,7 +5,7 @@ import { experience } from "../lib/portfolio-data";
 
 const experienceLogos: Record<string, { src: string; alt: string }> = {
   "The Graduate Dropout": { src: "/experience/tgd-logo.png", alt: "The Graduate Dropout logo" },
-  Freelance: { src: "/experience/freelance-logo.jpg", alt: "Instagram logo for freelance content design" },
+  Freelance: { src: "/experience/freelance-logo.jpg", alt: "Adobe logo for freelance content design" },
   "Google Developers Club": { src: "/experience/google-developers-logo.png", alt: "Google Developers logo" },
   "College Cultural Committee": { src: "/experience/rcciit-logo.png", alt: "RCCIIT logo" },
   "Smart Bengal Hackathon": { src: "/experience/hackathon-logo.jpg", alt: "Smart Bengal Hackathon logo" },
