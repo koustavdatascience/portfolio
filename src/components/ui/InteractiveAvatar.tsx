@@ -13,15 +13,15 @@ export default function InteractiveAvatar({ width = 122, height = 122 }: Interac
 
   return (
     <div
-      className={`avatar-wrapper interactive-avatar avatar-placeholder${isHovered ? " avatar-placeholder--hover" : ""}`}
+      className={`avatar-wrapper interactive-avatar avatar-photo-wrapper${isHovered ? " avatar-photo-wrapper--hover" : ""}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       style={{ width, height }}
-      aria-label="Koustav Roy profile photo placeholder"
+      aria-label="Koustav Roy profile illustration"
       role="img"
     >
-      <span className="avatar-placeholder-letter">K</span>
-      <span className="avatar-placeholder-dot" aria-hidden="true" />
+      <img src="/profile/koustav-avatar.png" alt="Koustav Roy profile illustration" className="avatar-photo" />
+      <span className="avatar-photo-dot" aria-hidden="true" />
     </div>
   );
 }
