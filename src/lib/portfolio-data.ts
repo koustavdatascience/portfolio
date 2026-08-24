@@ -153,9 +153,42 @@ export const education = [
 ];
 
 export const skillGroups = [
-  { category: "analytics", skills: ["Excel", "SQL", "Python", "statistics", "data cleaning"] },
-  { category: "visualization", skills: ["Power BI", "Tableau", "data visualization", "dashboard design", "storytelling with data"] },
-  { category: "creative + product", skills: ["content design", "Adobe Photoshop", "Canva", "social media", "problem-solving"] },
+  {
+    category: "analytics",
+    skills: [
+      "Excel",
+      "SQL",
+      "Python",
+      "statistics",
+      "data cleaning",
+      "Power BI",
+      "Tableau",
+      "data visualization",
+      "dashboard design",
+      "storytelling with data",
+    ],
+  },
+  {
+    category: "development",
+    skills: ["C", "JavaScript", "TypeScript", "Next.js", "Firebase", "React Native"],
+  },
+  {
+    category: "ai dev",
+    skills: [
+      "Git/GitHub",
+      "Cursor AI",
+      "Antigravity",
+      "Claude Code",
+      "prompt engineering",
+      "Manus AI",
+      "Supabase",
+      "Render",
+      "Vercel",
+      "Streamlit",
+      "Codex",
+      "GitHub Actions",
+    ],
+  },
 ];
 
 export const photographyPlaceholders = [
