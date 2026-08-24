@@ -1,11 +1,16 @@
 {
   "name": "koustav-roy",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A tiny terminal introduction for Koustav Roy",
   "bin": {
     "koustav-roy": "index.js"
   },
-  "keywords": ["koustav", "portfolio", "data analyst", "terminal portfolio"],
+  "keywords": [
+    "koustav",
+    "portfolio",
+    "data analyst",
+    "terminal portfolio"
+  ],
   "author": "Koustav Roy <koustavdatascience@gmail.com>",
   "license": "MIT",
   "engines": {

@@ -4,7 +4,8 @@ const green = "\x1b[32m";
 const bright = "\x1b[92m";
 const reset = "\x1b[0m";
 const dim = "\x1b[2m";
-
+const CHAR_DELAY_MS = Number(process.env.KOUSTAV_TYPE_DELAY ?? 18);
+const LINE_PAUSE_MS = Number(process.env.KOUSTAV_LINE_PAUSE ?? 120);
 const lines = [
   `${bright}✔curiosity confirmed.${reset}`,
   "",
@@ -57,4 +58,35 @@ const lines = [
   "Who are you?",
 ];
 
-console.log(lines.join("\n"));
+const sleep = (milliseconds) =>
+  new Promise((resolve) => setTimeout(resolve, milliseconds));
+
+async function typeLine(line) {
+  let index = 0;
+
+  while (index < line.length) {
+    if (line[index] === "\x1b") {
+      const ansiMatch = line.slice(index).match(/^\x1b\[[0-9;]*m/);
+      if (ansiMatch) {
+        process.stdout.write(ansiMatch[0]);
+        index += ansiMatch[0].length;
+        continue;
+      }
+    }
+
+    process.stdout.write(line[index]);
+    index += 1;
+    await sleep(CHAR_DELAY_MS);
+  }
+
+  process.stdout.write("\n");
+  await sleep(LINE_PAUSE_MS);
+}
+
+async function main() {
+  for (const line of lines) {
+    await typeLine(line);
+  }
+}
+
+main();
