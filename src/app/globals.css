@@ -675,8 +675,8 @@ nav {
 
 .project-card-brief {
   padding: 14px 16px 16px;
-  background: var(--capsule-bg);
-  color: var(--bg-color);
+  background: transparent;
+  color: var(--text-primary);
 }
 
 .project-card-brief h3 {
@@ -687,9 +687,9 @@ nav {
 
 .project-card-brief p {
   margin: 0;
+  color: var(--text-secondary);
   font-size: 0.78rem;
   line-height: 1.45;
-  opacity: 0.82;
 }
 
 /* Experience Section */
