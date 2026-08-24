@@ -154,6 +154,10 @@ export const education = [
 
 export const skillGroups = [
   {
+    category: "development",
+    skills: ["C", "JavaScript", "TypeScript", "Next.js", "Firebase", "React Native"],
+  },
+  {
     category: "analytics",
     skills: [
       "Excel",
@@ -169,8 +173,8 @@ export const skillGroups = [
     ],
   },
   {
-    category: "development",
-    skills: ["C", "JavaScript", "TypeScript", "Next.js", "Firebase", "React Native"],
+    category: "creative + product",
+    skills: ["content design", "Adobe Photoshop", "Canva", "social media", "problem-solving"],
   },
   {
     category: "ai dev",
