@@ -73,7 +73,9 @@ export const projects: PortfolioProject[] = [
     stack: ["React", "TypeScript", "Supabase", "RLS", "Product Systems"],
     link: "https://github.com/koustavdatascience/brief-global",
     repo: "https://github.com/koustavdatascience/brief-global",
+    imageUrl: "/projects/the-brief.png",
     accent: "#f5c96b",
+    featured: true,
   },
   {
     id: "second-self",
