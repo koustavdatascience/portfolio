@@ -120,13 +120,6 @@ export const experience = [
     description: ["Helped organize cultural events, coordinate activities, and manage creative responsibilities during college programs."],
   },
   {
-    company: "College Band",
-    role: "Lead Guitarist",
-    date: "2022 - 2024",
-    location: "india",
-    description: ["Performed as lead guitarist while contributing to rehearsals, musical arrangements, and live college events."],
-  },
-  {
     company: "Smart Bengal Hackathon",
     role: "Runner-up",
     date: "2023",

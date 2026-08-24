@@ -8,7 +8,6 @@ const experienceLogos: Record<string, { src: string; alt: string }> = {
   Freelance: { src: "/experience/freelance-logo.jpg", alt: "Instagram logo for freelance content design" },
   "Google Developers Club": { src: "/experience/google-developers-logo.png", alt: "Google Developers logo" },
   "College Cultural Committee": { src: "/experience/rcciit-logo.png", alt: "RCCIIT logo" },
-  "College Band": { src: "/experience/band-mark.svg", alt: "College band mark" },
   "Smart Bengal Hackathon": { src: "/experience/hackathon-logo.jpg", alt: "Smart Bengal Hackathon logo" },
   "Chittaranjan Locomotive Works": { src: "/experience/clw-logo.jpg", alt: "Chittaranjan Locomotive Works logo" },
 };

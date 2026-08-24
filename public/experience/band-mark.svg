@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
-  <title id="title">College band mark</title>
-  <rect width="96" height="96" rx="48" fill="#d98eff"/>
-  <path d="M30 24v40M30 38c24-18 30 17 36-3v37" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round"/>
-  <circle cx="30" cy="70" r="7" fill="#111"/><circle cx="66" cy="72" r="7" fill="#111"/>
-</svg>
