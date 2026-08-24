@@ -1,6 +1,6 @@
 {
   "name": "koustav-roy",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A tiny terminal introduction for Koustav Roy",
   "bin": {
     "koustav-roy": "index.js"

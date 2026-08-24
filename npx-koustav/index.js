@@ -3,9 +3,8 @@
 const green = "\x1b[32m";
 const bright = "\x1b[92m";
 const reset = "\x1b[0m";
-const dim = "\x1b[2m";
-const CHAR_DELAY_MS = Number(process.env.KOUSTAV_TYPE_DELAY ?? 18);
-const LINE_PAUSE_MS = Number(process.env.KOUSTAV_LINE_PAUSE ?? 120);
+const CHAR_DELAY_MS = Number(process.env.KOUSTAV_TYPE_DELAY ?? 35);
+const LINE_PAUSE_MS = Number(process.env.KOUSTAV_LINE_PAUSE ?? 250);
 const lines = [
   `${bright}✔curiosity confirmed.${reset}`,
   "",
@@ -20,8 +19,7 @@ const lines = [
   `${green}• problem solving${reset}`,
   `${green}• storytelling with data${reset}`,
   "",
-  "looks cool doesnt it? almost The Matrix-esque?",
-  "",
+
   "my stack?",
   `${green}Excel • SQL • Python • Power BI • Tableau${reset}`,
   `${green}statistics • data visualization${reset}`,
@@ -54,8 +52,6 @@ const lines = [
   "also my portfolio.",
   `${green}https://koustav-portfolio-eight.vercel.app${reset}`,
   "",
-  `${dim}This is me.${reset}`,
-  "Who are you?",
 ];
 
 const sleep = (milliseconds) =>
