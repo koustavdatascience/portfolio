@@ -2359,28 +2359,13 @@ nav {
   transform: scale(1.06);
 }
 
-/* Enlarge the Graduate Dropout mark so it fills the circular avatar more confidently. */
-.experience-avatar-tgd {
-  position: relative;
-}
-
+/* Match the other experience logos: one fixed white circle with the artwork zoomed inside it. */
 .experience-avatar-tgd .experience-logo {
-  transform: scale(1.55);
-}
-
-/* Keep the white inner ring visible above the enlarged artwork. */
-.experience-avatar-tgd::after {
-  content: "";
-  position: absolute;
-  inset: 4px;
-  border: 3px solid #fff;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 2;
+  transform: scale(1.35);
 }
 
 .experience-avatar-tgd:hover .experience-logo {
-  transform: scale(1.62);
+  transform: scale(1.42);
 }
 
 .avatar-photo-wrapper {
