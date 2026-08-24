@@ -49,7 +49,7 @@ const lines = [
   `${green}github: https://github.com/koustavdatascience${reset}`,
   "",
   "also my portfolio.",
-  `${green}https://koustav-portfolio-eight.vercel.app${reset}`,
+  `${green}https://koustavroy.vercel.app${reset}`,
   "",
 ];
 
