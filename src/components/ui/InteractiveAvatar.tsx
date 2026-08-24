@@ -20,7 +20,7 @@ export default function InteractiveAvatar({ width = 122, height = 122 }: Interac
       aria-label="Koustav Roy profile illustration"
       role="img"
     >
-      <img src="/profile/koustav-avatar.png" alt="Koustav Roy profile illustration" className="avatar-photo" />
+      <img src="/profile/koustav-avatar.webp" alt="Koustav Roy profile illustration" className="avatar-photo" />
       <span className="avatar-photo-dot" aria-hidden="true" />
     </div>
   );
