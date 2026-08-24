@@ -673,25 +673,6 @@ nav {
   background-color: #dfdfdf;
 }
 
-.project-card-brief {
-  padding: 14px 16px 16px;
-  background: transparent;
-  color: var(--text-primary);
-}
-
-.project-card-brief h3 {
-  margin: 0 0 6px;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.project-card-brief p {
-  margin: 0;
-  color: var(--text-secondary);
-  font-size: 0.78rem;
-  line-height: 1.45;
-}
-
 /* Experience Section */
 .experience-section {
   display: flex;

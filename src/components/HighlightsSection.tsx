@@ -57,17 +57,11 @@ export default function HighlightsSection() {
             {highlights.map((project) => (
               <div key={project.id} className="carousel-slide carousel-slide-double" style={{ flex: "0 0 calc((100cqw - 16px) / 2)" }}>
                 <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-card" style={{ display: "block", textDecoration: "none", overflow: "hidden", position: "relative" }}>
-                  <div className="project-card-image">
-                    {project.imageUrl ? (
-                      <img src={project.imageUrl} alt={`${project.title} project preview`} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-                    ) : (
-                      <div className="project-card-fallback" style={{ background: project.accent }}>{project.title}</div>
-                    )}
-                  </div>
-                  <div className="project-card-brief">
-                    <h3>{project.title}</h3>
-                    <p>{project.description}</p>
-                  </div>
+                  {project.imageUrl ? (
+                    <img src={project.imageUrl} alt={`${project.title} project preview`} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit" }} />
+                  ) : (
+                    <div className="project-card-fallback" style={{ background: project.accent }}>{project.title}</div>
+                  )}
                 </a>
               </div>
             ))}

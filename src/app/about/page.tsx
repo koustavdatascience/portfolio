@@ -20,9 +20,10 @@ export default function About() {
         <h1 className="about-title"><BlurredStagger text="about me" /></h1>
         <div className="about-content" style={{ width: "100%", maxWidth: "600px", marginInline: "auto", textAlign: "left" }}>
           <p>hey, i&apos;m {profile.name}. i&apos;m an aspiring data analyst who likes turning messy questions into clear, useful answers.</p>
-          <p>i&apos;m currently building my analytics foundation through a six-month Data Analyst course at IIT Roorkee, working with Excel, SQL, Python, Power BI, Tableau, statistics, and data visualization.</p>
+          <p>i&apos;m currently pursuing a postgraduate programme at IIT Roorkee, building a strong foundation in data analytics, statistical reasoning, visualization, and emerging AI technologies, with hands-on work across Excel, SQL, Python, Power BI, and Tableau.</p>
           <p>before moving toward data, i worked in content design and social media. that creative background still shapes how i communicate: i care about the story behind the numbers, not just the numbers themselves.</p>
-          <p>outside work, i have helped organize cultural events, performed as a lead guitarist, built small products, and explored ideas through projects such as Waypoint, Mochi, and ClinicOCR.</p>
+          <p>i&apos;m currently building <strong>The Brief</strong>, an open-source policy intelligence project focused on making complex information easier to discover, research, and understand.</p>
+          <p>outside work, i&apos;ve helped organize cultural events, performed as a lead guitarist, and built small products such as Waypoint, Mochi, and ClinicOCR.</p>
           <p>i&apos;m currently looking for internship and full-time opportunities where i can learn quickly, solve meaningful problems, and make data easier to understand.</p>
         </div>
       </div>
