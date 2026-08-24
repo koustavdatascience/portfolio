@@ -169,7 +169,6 @@ export const skillGroups = [
       "Tableau",
       "data visualization",
       "dashboard design",
-      "storytelling with data",
     ],
   },
   {
@@ -184,7 +183,6 @@ export const skillGroups = [
       "Antigravity",
       "Claude Code",
       "prompt engineering",
-      "Manus AI",
       "Supabase",
       "Render",
       "Vercel",
