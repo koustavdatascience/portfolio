@@ -2359,7 +2359,11 @@ nav {
   transform: scale(1.06);
 }
 
-/* Match the other experience logos: one fixed white circle with the artwork zoomed inside it. */
+/* Match the RCCIIT treatment: a visible white border with the artwork zoomed inside. */
+.experience-avatar-tgd {
+  border: 4px solid #fff;
+}
+
 .experience-avatar-tgd .experience-logo {
   transform: scale(1.35);
 }
