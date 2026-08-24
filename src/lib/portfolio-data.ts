@@ -99,6 +99,13 @@ export const experience = [
     ],
   },
   {
+    company: "Google Developers Club",
+    role: "coordinator",
+    date: "during college",
+    location: "india",
+    description: ["Coordinated activities for the Google Developers Club in college."],
+  },
+  {
     company: "freelance",
     role: "content designer",
     date: "may 2024 - present",

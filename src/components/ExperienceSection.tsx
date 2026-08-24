@@ -4,11 +4,12 @@ import { useState } from "react";
 import { experience } from "../lib/portfolio-data";
 
 const experienceLogos: Record<string, { src: string; alt: string }> = {
-  "The Graduate Dropout": { src: "/experience/tgd-mark.svg", alt: "The Graduate Dropout mark" },
-  freelance: { src: "/experience/freelance-mark.svg", alt: "Freelance content design mark" },
+  "The Graduate Dropout": { src: "/experience/tgd-logo.png", alt: "The Graduate Dropout logo" },
+  freelance: { src: "/experience/freelance-logo.jpg", alt: "Instagram logo for freelance content design" },
+  "Google Developers Club": { src: "/experience/google-developers-logo.png", alt: "Google Developers logo" },
   "college cultural committee": { src: "/experience/rcciit-logo.png", alt: "RCCIIT logo" },
   "college band": { src: "/experience/band-mark.svg", alt: "College band mark" },
-  "smart bengal hackathon": { src: "/experience/hackathon-mark.svg", alt: "Smart Bengal Hackathon mark" },
+  "smart bengal hackathon": { src: "/experience/hackathon-logo.jpg", alt: "Smart Bengal Hackathon logo" },
   "chittaranjan locomotive works": { src: "/experience/clw-logo.jpg", alt: "Chittaranjan Locomotive Works logo" },
 };
 

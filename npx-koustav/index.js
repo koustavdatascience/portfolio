@@ -26,6 +26,7 @@ const lines = [
   "",
   "what i've been up to",
   `${green}• Content Designer at The Graduate Dropout${reset}`,
+  `${green}• Coordinator, Google Developers Club${reset}`,
   `${green}• Independent builder of small digital products and experiments${reset}`,
   `${green}• Runner-up, Smart Bengal Hackathon 2023${reset}`,
   `${green}• Currently pursuing a Postgraduate Programme in Data Analytics at IIT Roorkee${reset}`,
