@@ -3,8 +3,8 @@
 const green = "\x1b[32m";
 const bright = "\x1b[92m";
 const reset = "\x1b[0m";
-const CHAR_DELAY_MS = Number(process.env.KOUSTAV_TYPE_DELAY ?? 35);
-const LINE_PAUSE_MS = Number(process.env.KOUSTAV_LINE_PAUSE ?? 250);
+const CHAR_DELAY_MS = Number(process.env.KOUSTAV_TYPE_DELAY ?? 60);
+const LINE_PAUSE_MS = Number(process.env.KOUSTAV_LINE_PAUSE ?? 450);
 const lines = [
   `${bright}✔curiosity confirmed.${reset}`,
   "",
@@ -24,9 +24,8 @@ const lines = [
   `${green}Excel • SQL • Python • Power BI • Tableau${reset}`,
   `${green}statistics • data visualization${reset}`,
   "",
-  "experience so far",
+  "what i've been up to",
   `${green}• Content Designer at The Graduate Dropout${reset}`,
-  `${green}• Freelance Social Media Content Editor${reset}`,
   `${green}• Independent builder of small digital products and experiments${reset}`,
   `${green}• Runner-up, Smart Bengal Hackathon 2023${reset}`,
   `${green}• Currently pursuing a Postgraduate Programme in Data Analytics at IIT Roorkee${reset}`,
