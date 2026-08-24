@@ -17,10 +17,7 @@ const notoMalayalam = Noto_Sans_Malayalam({ subsets: ["malayalam"], variable: "-
 const notoDevanagari = Noto_Sans_Devanagari({ subsets: ["devanagari"], variable: "--font-noto-devanagari", display: "swap" });
 
 export const metadata: Metadata = {
-  title: {
-    default: "Koustav Roy | Data Analyst",
-    template: "%s | Koustav Roy",
-  },
+  title: "Koustav Roy",
   description: "Koustav Roy is an aspiring Data Analyst who turns data into clear insights and meaningful decisions.",
   keywords: ["Koustav Roy", "Data Analyst", "Excel", "SQL", "Python", "Power BI", "Tableau", "data visualization"],
   authors: [{ name: "Koustav Roy" }],

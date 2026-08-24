@@ -1,5 +1,4 @@
 import InteractiveAvatar from "../../components/ui/InteractiveAvatar";
-import { BlurredStagger } from "../../components/ui/blurred-stagger-text";
 import { profile } from "../../lib/portfolio-data";
 
 export const dynamic = "force-static";
@@ -17,7 +16,6 @@ export default function Contact() {
           </svg>
         </div>
         <div className="hero-avatar contact-avatar"><InteractiveAvatar priority /></div>
-        <h1 className="contact-title"><BlurredStagger text="touch me" /></h1>
         <div className="contact-description">
           <p>if you want to talk about a data problem, a creative project, or an opportunity, feel free to reach out :)</p>
         </div>
