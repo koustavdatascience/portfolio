@@ -5,12 +5,12 @@ import { experience } from "../lib/portfolio-data";
 
 const experienceLogos: Record<string, { src: string; alt: string }> = {
   "The Graduate Dropout": { src: "/experience/tgd-logo.png", alt: "The Graduate Dropout logo" },
-  freelance: { src: "/experience/freelance-logo.jpg", alt: "Instagram logo for freelance content design" },
+  Freelance: { src: "/experience/freelance-logo.jpg", alt: "Instagram logo for freelance content design" },
   "Google Developers Club": { src: "/experience/google-developers-logo.png", alt: "Google Developers logo" },
-  "college cultural committee": { src: "/experience/rcciit-logo.png", alt: "RCCIIT logo" },
-  "college band": { src: "/experience/band-mark.svg", alt: "College band mark" },
-  "smart bengal hackathon": { src: "/experience/hackathon-logo.jpg", alt: "Smart Bengal Hackathon logo" },
-  "chittaranjan locomotive works": { src: "/experience/clw-logo.jpg", alt: "Chittaranjan Locomotive Works logo" },
+  "College Cultural Committee": { src: "/experience/rcciit-logo.png", alt: "RCCIIT logo" },
+  "College Band": { src: "/experience/band-mark.svg", alt: "College band mark" },
+  "Smart Bengal Hackathon": { src: "/experience/hackathon-logo.jpg", alt: "Smart Bengal Hackathon logo" },
+  "Chittaranjan Locomotive Works": { src: "/experience/clw-logo.jpg", alt: "Chittaranjan Locomotive Works logo" },
 };
 
 function ExperienceItem({ item, isOpen, onClick }: { item: (typeof experience)[number]; isOpen: boolean; onClick: () => void }) {
