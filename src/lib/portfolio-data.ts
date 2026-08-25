@@ -117,7 +117,7 @@ export const experience = [
   {
     company: "College Cultural Committee",
     role: "Event Team Member",
-    date: "2022 - 2024",
+    date: "2022 - 2025",
     location: "RCCIIT, Kolkata",
     description: ["Helped organize cultural events, coordinate activities, and manage creative responsibilities during college programs."],
   },
@@ -131,24 +131,24 @@ export const experience = [
   {
     company: "Chittaranjan Locomotive Works",
     role: "Industrial Trainee",
-    date: "one month",
-    location: "india",
+    date: "2024",
+    location: "Chittaranjan",
     description: ["Gained practical exposure to industrial processes, engineering operations, and workplace practices."],
   },
 ];
 
 export const education = [
   {
-    institution: "RCCIIT",
-    degree: "B.Tech in Electronics and Communication Engineering",
-    date: "2021 - 2025",
-    detail: "CGPA: 7.6",
-  },
-  {
     institution: "IIT Roorkee",
     degree: "Postgraduate Programme",
     date: "2026 - 2027",
     detail: "Data Analytics",
+  },
+  {
+    institution: "RCCIIT",
+    degree: "B.Tech in Electronics and Communication Engineering",
+    date: "2021 - 2025",
+    detail: "CGPA: 7.6",
   },
 ];
 

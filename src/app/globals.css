@@ -2351,11 +2351,9 @@ nav {
   border-radius: 50%;
   padding: 6px;
   background: #fff;
-  filter: grayscale(100%);
-  transition: filter .3s ease, transform .3s ease;
+  transition: transform .3s ease;
 }
 .experience-avatar:hover .experience-logo {
-  filter: grayscale(0%);
   transform: scale(1.06);
 }
 
