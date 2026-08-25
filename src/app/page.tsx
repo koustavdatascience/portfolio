@@ -74,8 +74,8 @@ const projects = [
     description:
       "A policy-intelligence project exploring structured source discovery, evidence review, and private research workflows for complex public information.",
     stack: ["React", "TypeScript", "Supabase", "RLS"],
-    href: "https://github.com/koustavdatascience/brief-global",
-    repo: "https://github.com/koustavdatascience/brief-global",
+    href: "https://brief-global-open.onrender.com",
+    repo: "https://github.com/koustavdatascience/brief-global-open",
     icon: Search,
     tone: "ink",
   },
