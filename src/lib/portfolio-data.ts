@@ -141,13 +141,13 @@ export const education = [
   {
     institution: "RCCIIT",
     degree: "B.Tech in Electronics and Communication Engineering",
-    date: "completed 2025",
+    date: "2021 - 2025",
     detail: "CGPA: 7.6",
   },
   {
     institution: "IIT Roorkee",
     degree: "Postgraduate Programme",
-    date: "currently enrolled",
+    date: "2026 - 2027",
     detail: "Data Analytics",
   },
 ];
