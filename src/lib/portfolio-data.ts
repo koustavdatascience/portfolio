@@ -142,7 +142,7 @@ export const education = [
     institution: "RCCIIT",
     degree: "B.Tech in Electronics and Communication Engineering",
     date: "completed 2025",
-    detail: "CGPA: approximately 7.5",
+    detail: "CGPA: 7.6",
   },
   {
     institution: "IIT Roorkee",
