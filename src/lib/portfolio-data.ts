@@ -146,9 +146,9 @@ export const education = [
   },
   {
     institution: "IIT Roorkee",
-    degree: "Data Analyst course",
-    date: "july 2026 - january 2027",
-    detail: "currently enrolled · six-month program",
+    degree: "Postgraduate Programme",
+    date: "currently enrolled",
+    detail: "Data Analytics",
   },
 ];
 
