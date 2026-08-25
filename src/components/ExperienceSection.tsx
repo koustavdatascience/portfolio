@@ -4,7 +4,7 @@ import { useState } from "react";
 import { experience } from "../lib/portfolio-data";
 
 const experienceLogos: Record<string, { src: string; alt: string }> = {
-  "The Graduate Dropout": { src: "/experience/graduate-dropout-logo.png", alt: "The Graduate Dropout logo" },
+  "The Graduate Dropout": { src: "/experience/graduate-dropout-logo.jpg", alt: "The Graduate Dropout logo" },
   Freelance: { src: "/experience/freelance-logo.jpg", alt: "Adobe logo for freelance content design" },
   "Google Developers Club": { src: "/experience/google-developers-logo.png", alt: "Google Developers logo" },
   "College Cultural Committee": { src: "/experience/rcciit-logo.png", alt: "RCCIIT logo" },
