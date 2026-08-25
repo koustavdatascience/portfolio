@@ -71,8 +71,8 @@ export const projects: PortfolioProject[] = [
     detail:
       "The Brief explores a structured approach to monitoring policy sources, extracting useful information, and keeping review boundaries explicit.",
     stack: ["React", "TypeScript", "Supabase", "RLS", "Product Systems"],
-    link: "https://github.com/koustavdatascience/brief-global",
-    repo: "https://github.com/koustavdatascience/brief-global",
+    link: "https://github.com/koustavdatascience/brief-global-open",
+    repo: "https://github.com/koustavdatascience/brief-global-open",
     imageUrl: "/projects/the-brief.png",
     accent: "#f5c96b",
     featured: true,
