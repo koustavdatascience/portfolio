@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Koustav Roy | Data Analyst",
     description: "An aspiring Data Analyst who enjoys turning data into clear insights and meaningful business decisions.",
     siteName: "Koustav Roy",
-    images: [{ url: "/twittercard.png", width: 1200, height: 630, alt: "Koustav Roy — Data Analyst" }],
+    images: [{ url: "/twittercard-v2.png", width: 1200, height: 630, alt: "Koustav Roy — Data Analyst" }],
     locale: "en_US",
     type: "website",
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Koustav Roy | Data Analyst",
     description: "Data, projects, creativity, and things I am building.",
-    images: ["/twittercard.png"],
+    images: ["/twittercard-v2.png"],
   },
 };
 
