@@ -11,7 +11,7 @@ const GREETING_HOLD_MS = 200;
 
 const GREETINGS = [
   { text: "Hello.", animate: true, lang: "en" },
-  { text: "നമസ്കാരം.", animate: false, lang: "ml" },
+  { text: "নমস্কার।", animate: false, lang: "bn" },
   { text: "नमस्ते.", animate: false, lang: "hi" },
   { text: "नमस्कार.", animate: false, lang: "mr" },
   { text: "hola!", animate: false, lang: "es" },

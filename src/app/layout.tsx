@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Noto_Sans_Devanagari, Noto_Sans_Malayalam } from "next/font/google";
+import { Inter, Noto_Sans_Bengali, Noto_Sans_Devanagari, Noto_Sans_Malayalam } from "next/font/google";
 import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
@@ -13,6 +13,7 @@ const instrumentSerif = localFont({
   variable: "--font-instrument-serif",
   display: "swap",
 });
+const notoBengali = Noto_Sans_Bengali({ subsets: ["bengali"], variable: "--font-noto-bengali", display: "swap" });
 const notoMalayalam = Noto_Sans_Malayalam({ subsets: ["malayalam"], variable: "--font-noto-malayalam", display: "swap" });
 const notoDevanagari = Noto_Sans_Devanagari({ subsets: ["devanagari"], variable: "--font-noto-devanagari", display: "swap" });
 
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${instrumentSerif.variable} ${notoMalayalam.variable} ${notoDevanagari.variable}`}>
+      <body className={`${inter.className} ${instrumentSerif.variable} ${notoBengali.variable} ${notoMalayalam.variable} ${notoDevanagari.variable}`}>
         <LoadingScreen />
         <Navigation />
         <main className="content-area">{children}</main>

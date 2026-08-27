@@ -138,6 +138,10 @@
   line-height: 1;
 }
 
+.loading-screen__text--bn {
+  font-family: var(--font-noto-bengali), serif;
+}
+
 .loading-screen__text--ml {
   font-family: var(--font-noto-malayalam), serif;
 }
@@ -147,6 +151,7 @@
   font-family: var(--font-noto-devanagari), serif;
 }
 
+.loading-screen__text--bn,
 .loading-screen__text--ml,
 .loading-screen__text--hi,
 .loading-screen__text--mr,
