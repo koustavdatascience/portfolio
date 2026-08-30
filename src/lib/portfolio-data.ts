@@ -173,7 +173,7 @@ export const skillGroups = [
   },
   {
     category: "creative + product",
-    skills: ["content design", "Adobe Photoshop", "Canva", "social media", "problem-solving"],
+    skills: ["content design", "Adobe Photoshop", "DaVinci", "UX writer", "content strategist"],
   },
   {
     category: "ai dev",
