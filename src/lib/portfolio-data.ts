@@ -148,7 +148,7 @@ export const education = [
     institution: "RCCIIT",
     degree: "B.Tech in Electronics and Communication Engineering",
     date: "2021 - 2025",
-    detail: "CGPA: 7.6",
+    detail: "CGPA: 7.33",
   },
 ];
 
